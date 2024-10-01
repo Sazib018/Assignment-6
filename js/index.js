@@ -116,12 +116,13 @@ function readPost(name, view) {
 
 
 
-const detailsButton = async () => {
+/* const detailsButton = async () => {
   const res = await fetch(
-    "https://openapi.programming-hero.com/api/retro-forum/latest-posts"
+    `https://openapi.programming-hero.com/api/retro-forum/latest-posts`
   );
   const data = await res.json();
-
+  console.log(data);
+  
   const cardsBody = document.getElementById('latest-container');
 
   const div = document.createElement('div');
@@ -165,5 +166,5 @@ const detailsButton = async () => {
                   </div>
   `;
   cardsBody.appendChild(div);
-};
+}; */
 
